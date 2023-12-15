@@ -23,13 +23,10 @@ menu:
     分类: /categories/ || fa fa-archive
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
-  生活 || fas fa-list:
-    分享: /shuoshuo/ || fa fa-comments-o
-    音乐: /music/ || fa fa-music
-  友链: /links/ || fa fa-link
-  留言板: /comment/ || fa fa-paper-plane
+  友链: /link/ || fa fa-link
+  #留言板: /comment/ || fa fa-paper-plane
   #留言板: /messageboard/ || fa fa-paper-plane
-  关于笔者: /about/ || fas fa-heart  
+  #关于笔者: /about/ || fas fa-heart  
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -55,17 +52,17 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: /img/wall.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/wall.png
 
 # The banner image of archive page
 archive_img:
@@ -241,11 +238,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 关注我
+      link: https://github.com/xiaomeng758
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 这是我的个人博客
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -685,11 +682,11 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
@@ -780,10 +777,8 @@ subtitle:
   # 开头不允許转义字元，如需要，请把整個句子用双引号包住
   # 如果关闭打字效果，subtitle只会现示sub的第一行文字
   sub:
-    - 你在抱怨什么呢
-    - 为明天到来的事，说人生像是没有意义
-    - 没有选择会是唯一的路
-    - 这不是你自己的问题，人终归要好好去生活
+    - 玩二次元，当资深程序员
+
 
 
 
