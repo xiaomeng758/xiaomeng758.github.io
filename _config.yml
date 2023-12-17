@@ -108,3 +108,7 @@ deploy:
   type: git
   repo: https://github.com/xiaomeng758/xiaomeng758.github.io.git
   branch: master
+
+markdown:
+  plugins:
+      - '@renbaoshuo/markdown-it-katex'
