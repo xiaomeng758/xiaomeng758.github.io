@@ -112,3 +112,5 @@ deploy:
 markdown:
   plugins:
       - '@renbaoshuo/markdown-it-katex'
+  anchors:
+    permalink: true
